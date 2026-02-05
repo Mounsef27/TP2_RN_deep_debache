@@ -22,27 +22,24 @@ Ce dépôt contient mon travail pour le **TP2** du cours **US3362 (CNAM)** : pri
 
 ## 📂 Structure du projet
 
+```text
 TP2_US3362_deep_keras/
-├─ exo2.py # MLP Keras + entraînement + courbes + sauvegarde
-├─ exo3.py # CNN LeNet-like + entraînement + timing + sauvegarde
-├─ exo4.py # t-SNE vs PCA + métriques + figures
-├─ exo5.py # t-SNE sur espaces latents (MLP vs CNN) + métriques
+├─ exo2.py                     # MLP Keras + entraînement + courbes + sauvegarde
+├─ exo3.py                     # CNN LeNet-like + entraînement + timing + sauvegarde
+├─ exo4.py                     # t-SNE vs PCA + métriques + figures
+├─ exo5.py                     # t-SNE espaces latents (MLP vs CNN) + métriques
 ├─ scripts/
-│ └─ make_all.sh # Lance tous les scripts et génère figures/models/logs
+│  └─ make_all.sh              # Lance tous les scripts et génère figures/models/logs
 ├─ notebooks/
-│ └─ TP2.ipynb # Notebook de travail
-├─ figures/ # Figures générées (plots, t-SNE, PCA, etc.)
-├─ models/ # Modèles sauvegardés
-│ ├─ mlp_mnist.json
-│ ├─ mlp_mnist.weights.h5
-│ └─ exo3_lenet_like_mnist.keras
-├─ logs/ # Logs d'exécution
+│  └─ TP2.ipynb                # Notebook de travail
+├─ figures/                    # Figures générées (loss/acc, t-SNE, PCA, etc.)
+├─ models/                     # Modèles sauvegardés
+│  ├─ mlp_mnist.json
+│  ├─ mlp_mnist.weights.h5
+│  └─ exo3_lenet_like_mnist.keras
+├─ logs/                       # Logs d'exécution (optionnel)
 └─ requirements.txt
 
-yaml
-Copy code
-
----
 
 ## ⚙️ Installation (environnement isolé)
 
